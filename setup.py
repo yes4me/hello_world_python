@@ -17,7 +17,7 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            'say_hello = hello_module: say_hello'  # Function reference
+            'say_hello = hello_module:say_hello'
         ]
     },
 )
